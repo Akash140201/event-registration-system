@@ -56,3 +56,6 @@ POST api/eventDetails
 ### event details find all
 GET api/eventDetails?title=test event&venue=mumbai
 
+### Author
+## AKASH VIJAY KSHATRIYA
+
