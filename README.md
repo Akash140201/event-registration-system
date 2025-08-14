@@ -30,7 +30,7 @@ cd event-registration-system
 
 
 ## Build and Run
-mvn clean install
+mvn clean install,
 mvn spring-boot:run
 
 ### The API will be available at:
