@@ -53,4 +53,6 @@ POST api/eventDetails
   "ticketPrice": 1499.99,
   "organizer": "TechWorld Events Pvt. Ltd."
 }
+### event details find all
+GET api/eventDetails?title=test event&venue=mumbai
 
