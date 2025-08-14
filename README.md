@@ -40,7 +40,7 @@ mvn spring-boot:run
 http://localhost:8080
 
 ## API Endpoints
-### Create Event
+### 1)Create Event
 POST api/eventDetails
 
 {
@@ -53,43 +53,43 @@ POST api/eventDetails
   "ticketPrice": 1499.99,
   "organizer": "TechWorld Events Pvt. Ltd."
 }
-### event details find all
+### 2)event details find all
 GET api/eventDetails?title=test event&venue=mumbai
 
-### event details find by id
+### 3)event details find by id
 GET api/eventDetails/2
 
-### event details update (PUT)
+### 4)event details update (PUT)
 PUT api/eventDetails/2
 
-### event details delete
+### 5)event details delete
 DELETE api/eventDetails/1
 
-### event details statistics
+### 6)event details statistics
 GET api/eventDetails/2/eventStatistics
 
-### event details cencel (Patch)
+### 7)event details cencel (Patch)
 PATCH api/eventDetails/2/cancel
 
-### attendees save
+### 8)attendees save
 POST api/attendees
 
-### attendee details find all
+### 9)attendee details find all
 GET api/attendees?city=nashik
 
-### attendee details find by id
+### 10)attendee details find by id
 GET api/attendees/2
 
-### attendees update
+### 11)attendees update
 PUT api/attendees/1
 
-### attendee details delete
+### 12)attendee details delete
 DELETE api/attendees/1
 
-### event has attendee save
+### 13)event has attendee save
 POST api/eventHasAttendee
 
-### event has attendee fetch
+### 14)event has attendee fetch
 GET api/eventHasAttendee
 
 ### Author
