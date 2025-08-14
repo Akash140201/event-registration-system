@@ -25,6 +25,7 @@ This project was developed as part of the **Junior Developer assignment for Payb
 ```bash
 git clone https://github.com/<your-username>/event-registration-system.git
 cd event-registration-system.
+```
 
 
 ### Demo Video
