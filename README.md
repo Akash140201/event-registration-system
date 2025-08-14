@@ -28,9 +28,6 @@ cd event-registration-system
 ```
 
 
-### Demo Video
-
-https://drive.google.com/file/d/1r075Hauh4DrdydPKhhVPOoaiwOs6Xh3S/view?usp=drivesdk
 
 ## Build and Run
 mvn clean install
@@ -91,6 +88,11 @@ POST api/eventHasAttendee
 
 ### 14)event has attendee fetch
 GET api/eventHasAttendee
+
+## Demo Video
+
+https://drive.google.com/file/d/1r075Hauh4DrdydPKhhVPOoaiwOs6Xh3S/view?usp=drivesdk
+
 
 ### Author
 #### AKASH VIJAY KSHATRIYA
