@@ -38,3 +38,19 @@ mvn spring-boot:run
 
 ### The API will be available at:
 http://localhost:8080
+
+## API Endpoints
+### Create Event
+POST api/eventDetails
+
+{
+  "title": "Test EVENT",
+  "description": "EVENT DESC.",
+  "eventDate": "2026-01-10T10:30:00",
+  "eventDuration": 3.5,
+  "venue": "Grand Convention Center, Mumbai",
+  "maxSeatsAllowed": 100,
+  "ticketPrice": 1499.99,
+  "organizer": "TechWorld Events Pvt. Ltd."
+}
+
