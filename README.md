@@ -31,3 +31,10 @@ cd event-registration-system.
 ### Demo Video
 
 https://drive.google.com/file/d/1r075Hauh4DrdydPKhhVPOoaiwOs6Xh3S/view?usp=drivesdk
+
+## Build and Run
+mvn clean install
+mvn spring-boot:run
+
+### The API will be available at:
+http://localhost:8080
