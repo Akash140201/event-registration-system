@@ -89,6 +89,14 @@ POST api/eventHasAttendee
 ### 14)event has attendee fetch
 GET api/eventHasAttendee
 
+## Assumptions
+The application will be run on Java 17 or higher.
+SQLite database file (eventReg.db) is located in the resources directory.
+Required dependencies are installed via Maven before running.
+
+
+
+
 ## Demo Video
 
 https://drive.google.com/file/d/1r075Hauh4DrdydPKhhVPOoaiwOs6Xh3S/view?usp=drivesdk
