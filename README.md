@@ -56,6 +56,42 @@ POST api/eventDetails
 ### event details find all
 GET api/eventDetails?title=test event&venue=mumbai
 
+### event details find by id
+GET api/eventDetails/2
+
+### event details update (PUT)
+PUT api/eventDetails/2
+
+### event details delete
+DELETE api/eventDetails/1
+
+### event details statistics
+GET api/eventDetails/2/eventStatistics
+
+### event details cencel (Patch)
+PATCH api/eventDetails/2/cancel
+
+### attendees save
+POST api/attendees
+
+### attendee details find all
+GET api/attendees?city=nashik
+
+### attendee details find by id
+GET api/attendees/2
+
+### attendees update
+PUT api/attendees/1
+
+### attendee details delete
+DELETE api/attendees/1
+
+### event has attendee save
+POST api/eventHasAttendee
+
+### event has attendee fetch
+GET api/eventHasAttendee
+
 ### Author
 #### AKASH VIJAY KSHATRIYA
 
